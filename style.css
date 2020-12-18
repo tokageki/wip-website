@@ -1,0 +1,102 @@
+@font-face {
+	font-family: "Mont-ExtraLight";
+	src: url("Mont-ExtraLightDEMO.otf");
+}
+
+
+
+@keyframes buttonHover {
+	from {background-color: #202223;color:#B6B6B6;}
+	to {background-color: #829eff;color:white;}
+}
+@keyframes buttonNoHover {
+	from {background-color:#829eff ;color:white;}
+	to {background-color: #202223 ;color:#B6B6B6;}
+}
+  
+
+
+body{
+	background-color: #232627; 	
+	background-size: 105%;
+	padding:75px;
+	text-align : left;
+	font-family: 'Mont-ExtraLight', sans-serif;
+
+}
+
+header{
+
+	padding-right:20px;
+	display: grid;
+	background-color:#202223;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+	grid-gap: 10px;
+	
+}
+
+
+.titreBot{
+	margin-top: 25px;
+}
+
+img.pdpBot{
+	float: left;
+	padding: 10px;
+	border-radius: 50%;
+	width:64px;
+	height:64px;
+}
+
+
+
+
+.nomBot{
+	padding: 10px;
+	color : #B6B6B6;
+	animation-name: buttonNoHover;
+	animation-duration: 0.5s;
+	background-color: #202223;
+}
+
+
+
+.menuLien{
+	margin-top: 35px;
+	padding: 10px;
+	color : #B6B6B6;
+	animation-name: buttonNoHover;
+	animation-duration: 0.5s;
+	background-color: #202223;
+	
+}
+
+.menuLien:hover{
+	color : white;
+	animation-name: buttonHover;
+	animation-duration: 0.5s;
+	background-color:#829eff ;
+}
+
+.messagePrincipal{
+	color: #B6B6B6;
+	margin: 20px;
+	grid-column: 1/4;
+	font-size: 50px;
+	font-family: 'Helvetica', sans-serif;
+}
+/*
+.fond{
+	z-index: -1;
+	grid-column: 1/5;
+	background-color: #42494e;
+	height: 1000px;
+    display: flex;
+    justify-content: space-between;
+	align-items: flex-end;
+    box-shadow: 0px 4px 4px #1c1a19;
+	border-radius: 10px;
+	opacity: 25%;
+}
+*/
