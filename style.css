@@ -6,47 +6,70 @@
 
 
 @keyframes buttonHover {
-	from {background-color: #202223;color:#B6B6B6;}
+	from {background-color: rgba(23,25,26,.6);color:#B6B6B6;}
 	to {background-color: #829eff;color:white;}
 }
 @keyframes buttonNoHover {
 	from {background-color:#829eff ;color:white;}
-	to {background-color: #202223 ;color:#B6B6B6;}
+	to {background-color:rgba(23,25,26,.6) ;color:#B6B6B6;}
 }
-  
+
+
+
+
+
+
+@keyframes slideInFromLeft {
+	0% {
+	  transform: translateX(-400%);opacity: 0%;
+	}
+	100% {
+	  transform: translateX(0);opacity: 100%;
+	}
+}
 
 
 body{
-	background-color: #232627; 	
-	background-size: 105%;
+	background-color: #232627; 
+	background-image: url(motif.png);
+	background-size: 50%;
 	padding:75px;
 	text-align : left;
 	font-family: 'Mont-ExtraLight', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
 
 }
 
-header{
 
-	padding-right:20px;
+
+header{
+	padding-right:2vw;
 	display: grid;
-	background-color:#202223;
+	background: rgba(23,25,26,.6);
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px;
-	grid-gap: 10px;
+    grid-template-rows: 8vw 10vw;
+	opacity: 80%;
 	
 }
 
 
-.titreBot{
-	margin-top: 25px;
+img.picReset{
+	padding-right: 10vw;
+	width:30%;
+	height:30%;
+	float: right;
+	animation: 1.3s ease-out 0s 1 slideInFromLeft;
 }
+
 
 img.pdpBot{
 	float: left;
 	padding: 10px;
 	border-radius: 50%;
-	width:64px;
-	height:64px;
+	width:5vw;
+	height:5vw;
 }
 
 
@@ -57,7 +80,7 @@ img.pdpBot{
 	color : #B6B6B6;
 	animation-name: buttonNoHover;
 	animation-duration: 0.5s;
-	background-color: #202223;
+	font-size: 1vw;
 }
 
 
@@ -68,7 +91,8 @@ img.pdpBot{
 	color : #B6B6B6;
 	animation-name: buttonNoHover;
 	animation-duration: 0.5s;
-	background-color: #202223;
+	background: rgba(23,25,26,.6);
+	font-size: 2vw;
 	
 }
 
@@ -80,12 +104,20 @@ img.pdpBot{
 }
 
 .messagePrincipal{
+  	white-space: nowrap;
+  	overflow: hidden;    
 	color: #B6B6B6;
 	margin: 20px;
 	grid-column: 1/4;
-	font-size: 50px;
+	font-size: 3vw;
 	font-family: 'Helvetica', sans-serif;
 }
+
+
+
+
+
+
 /*
 .fond{
 	z-index: -1;
