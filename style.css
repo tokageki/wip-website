@@ -91,7 +91,7 @@ img.pdpBot{
 	color : #B6B6B6;
 	animation-name: buttonNoHover;
 	animation-duration: 0.5s;
-
+	background: rgba(23,25,26,.6);
 	font-size: 2vw;
 	
 }
