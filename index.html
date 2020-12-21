@@ -1,4 +1,17 @@
-﻿<!DOCTYPE html>
+﻿<!--
+    BON ! Le but de ce site sera sur le long terme de faire un site pour mon bot discord.
+    Je veux pouvoir ajouter une interface pour mieux paramètrer le bot car avec juste du texte c'est pas fifou.
+    Pour l'instant j'ai fait que la base du site, mais je ajouter un peu de javaScript par-ci par-là histoire de faire un vrai site PRATIQUE.
+    La page de connection se fera à travers le système d'auth de discord, pour le reste je verrai plus tard
+
+    Du coup la page "login" accueillera le tableau demandé dans la feuille d'évaluation, je savais pas trop où le mettre x)
+
+
+    AH et le "box menu" j'aimais pas sur le côté alors je l'ai mis dans l'en-tête ^^
+-->
+
+
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <title>T-Pokebot</title>
@@ -11,7 +24,7 @@
             <div class="nomBot"><img src="pdp_bot.png" alt="bot profile picture" class="pdpBot"><h1>T-Pokebot</h1></div>
             <span class="menuLien" onclick="location.href='help.html';" style="cursor: pointer"><a> Help </a></span>
             <span class="menuLien" onclick="location.href='login.html';" style="cursor: pointer"><a> Login </a></span>
-            <span class="menuLien" onclick="location.href='https://discord.com/oauth2/authorize?client_id=693436830627921942&permissions=268823616&scope=bot';" style="cursor: pointer"> <a> Invite bot </a></span>
+            <span class="menuLien" onclick="window.open('https://discord.com/oauth2/authorize?client_id=693436830627921942&permissions=268823616&scope=bot','_blank')" style="cursor: pointer"> <a> Invite bot </a></span>
             <h1 class="messagePrincipal">Shiny Hunting<br>Discord Bot.</h1>
         </header>
         <div class="page">

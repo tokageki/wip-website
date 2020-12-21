@@ -42,7 +42,7 @@ body{
 	font-family: 'Mont-ExtraLight', sans-serif;
     margin: 0px;
     padding: 0px;
-
+	color:#B6B6B6;
 
 }
 
@@ -148,20 +148,26 @@ img.pdpBot{
 
 
 
-
-
-
-/*
-.fond{
-	z-index: -1;
-	grid-column: 1/5;
-	background-color: #42494e;
-	height: 1000px;
-    display: flex;
-    justify-content: space-between;
-	align-items: flex-end;
-    box-shadow: 0px 4px 4px #1c1a19;
-	border-radius: 10px;
-	opacity: 25%;
+.botCommands{
+	padding-left: 2vw;
 }
-*/
+
+
+s{
+	font-family: 'Helvetica', sans-serif;
+}
+
+
+.desole{
+	font-family: 'Helvetica', sans-serif;
+}
+
+table{
+	border: 2px solid #B6B6B6;
+}
+
+td{
+	border: 2px solid #B6B6B6;
+}
+
+
