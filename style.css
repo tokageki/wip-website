@@ -170,4 +170,11 @@ td{
 	border: 2px solid #B6B6B6;
 }
 
+.lien{
+	padding: 3vw;
+	color:#829eff;
+}
+.lien:hover{
+	color:white;
+}
 
