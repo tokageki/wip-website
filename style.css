@@ -1,5 +1,4 @@
-/* bon j'ai essayé de faire en sorte que la page s'adapte à la taille du navigateur, 
-j'ai pas eu le temps [trop de devoirs D: {et pis c'est noel en plus UwU}] donc j'ai essayé de faire de mon mieux] */
+/* bon j'ai essayé de faire en sorte que la page s'adapte à la taille du navigateur j'ai essayé de faire de mon mieux UwU */
 
 
 
@@ -158,9 +157,6 @@ s{
 }
 
 
-.desole{
-	font-family: 'Helvetica', sans-serif;
-}
 
 table{
 	border: 2px solid #B6B6B6;
@@ -171,9 +167,15 @@ td{
 }
 
 .lien{
-	padding: 3vw;
+	padding-left: 2vw;
 	color:#829eff;
 }
+
+.discord{
+	padding-left: 2vw;
+	color:#829eff;
+}
+
 .lien:hover{
 	color:white;
 }
